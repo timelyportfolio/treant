@@ -1,0 +1,11 @@
+dependencies:
+ - name: treant-js
+   version: 1.0.0
+   src: htmlwidgets/treant-js
+   script:
+    - vendor/jquery.min.js
+    - vendor/jquery.mousewheel.js
+    - vendor/jquery.easing.js
+    - vendor/raphael.js
+    - Treant.js
+   stylesheet: Treant.css
